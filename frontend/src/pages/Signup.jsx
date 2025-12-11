@@ -113,12 +113,17 @@ export default function Signup() {
       minHeight: '100vh',
       background: 'linear-gradient(135deg, #10b981 0%, #8b5cf6 100%)',
       display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: '16px',
+      flexDirection: 'column',
       fontFamily: 'system-ui, -apple-system, sans-serif'
     }}>
-      <div style={{ width: '100%', maxWidth: '450px' }}>
+      <div style={{
+        flex: 1,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '16px'
+      }}>
+        <div style={{ width: '100%', maxWidth: '450px' }}>
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
           <div style={{
@@ -359,29 +364,26 @@ export default function Signup() {
         </div>
 
         {/* Footer */}
-        <div style={{ textAlign: 'center', color: 'rgba(255,255,255,0.9)' }}>
+        <div style={{ textAlign: 'center', color: 'rgba(255,255,255,0.9)', marginTop: '24px' }}>
           <span>Already have an account? </span>
           <a href="/login" style={{ color: 'white', fontWeight: '600', textDecoration: 'none', cursor: 'pointer' }}>
             Login
           </a>
         </div>
+        </div>
       </div>
 
-      {/* Professional Footer Section */}
+      {/* Professional Footer Section - Relative positioning */}
       <div style={{
-        position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
         background: 'rgba(0, 0, 0, 0.3)',
         backdropFilter: 'blur(4px)',
-        padding: '24px 16px',
+        padding: '40px 16px',
         textAlign: 'center',
         borderTop: '1px solid rgba(255, 255, 255, 0.1)',
         fontSize: '12px',
         lineHeight: '1.6',
         color: 'rgba(255, 255, 255, 0.8)',
-        zIndex: 10
+        marginTop: 'auto'
       }}>
         <p style={{ margin: '0 0 8px 0', fontWeight: '500' }}>
           By: R V V S S MOHAN (2501050151), HANUMANTHU TARUN (2501050043),<br />
@@ -392,9 +394,6 @@ export default function Signup() {
           Under the supervision of: DR. V. CHANDRA PRAKASH
         </p>
       </div>
-
-      {/* Spacing for footer - increased to prevent overlap */}
-      <div style={{ height: '180px' }} />
     </div>
   );
 }
