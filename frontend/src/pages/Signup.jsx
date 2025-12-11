@@ -135,7 +135,7 @@ export default function Signup() {
             🩺
           </div>
           <h1 style={{ fontSize: '32px', fontWeight: 'bold', color: 'white', marginBottom: '8px' }}>
-            DiabetesCare
+            Personalised Recommendation For Diabetes Patients
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.8)' }}>Create your account</p>
         </div>
