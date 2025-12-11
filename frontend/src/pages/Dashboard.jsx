@@ -227,7 +227,7 @@ export default function Dashboard() {
               marginBottom: '8px',
               textShadow: '0 2px 10px rgba(0,0,0,0.1)'
             }}>
-              Health Dashboard
+              Personalised Recommendation For Diabetes Patients
             </h1>
             <p style={{ fontSize: '18px', opacity: 0.9 }}>
               💙 Monitor your diabetes health metrics
