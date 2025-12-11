@@ -215,6 +215,35 @@ export default function Login() {
           </a>
         </div>
       </div>
+
+      {/* Professional Footer Section */}
+      <div style={{
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        background: 'rgba(0, 0, 0, 0.3)',
+        backdropFilter: 'blur(4px)',
+        padding: '24px 16px',
+        textAlign: 'center',
+        borderTop: '1px solid rgba(255, 255, 255, 0.1)',
+        fontSize: '12px',
+        lineHeight: '1.6',
+        color: 'rgba(255, 255, 255, 0.8)',
+        zIndex: 10
+      }}>
+        <p style={{ margin: '0 0 8px 0', fontWeight: '500' }}>
+          By: R V V S S MOHAN (2501050151), HANUMANTHU TARUN (2501050043),<br />
+          M S RAMA KRISHNA (2501050020), Y. NICHAL KOTEISHH (2501050052),<br />
+          CH NIHAL KUMAR (2501050007)
+        </p>
+        <p style={{ margin: '0', fontWeight: '500' }}>
+          Under the supervision of: DR. V. CHANDRA PRAKASH
+        </p>
+      </div>
+
+      {/* Spacing for footer */}
+      <div style={{ height: '140px' }} />
     </div>
   );
 }
