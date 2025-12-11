@@ -242,8 +242,8 @@ export default function Login() {
         </p>
       </div>
 
-      {/* Spacing for footer */}
-      <div style={{ height: '140px' }} />
+      {/* Spacing for footer - increased to prevent overlap */}
+      <div style={{ height: '180px' }} />
     </div>
   );
 }
