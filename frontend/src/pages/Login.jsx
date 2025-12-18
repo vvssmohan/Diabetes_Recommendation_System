@@ -97,7 +97,7 @@ export default function Login() {
             🩺
           </div>
           <h1 style={{ fontSize: '32px', fontWeight: 'bold', color: 'white', marginBottom: '8px' }}>
-            Personalised Recommendation For Diabetes Patients
+            Personalised Recommendation For Diabetic Patients
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.8)' }}>Personalized Health Management</p>
         </div>
